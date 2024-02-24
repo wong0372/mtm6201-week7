@@ -1,0 +1,53 @@
+.dice circle {
+fill:yellow; 
+transition: all  0.5s; 
+transform-origin: 25px 25px; 
+}
+
+.dice:hover circle {
+    transform: scale(1.2);
+}
+
+.dice5 g{
+    transition: all 0.3s;
+    transform-origin: 100px 100px; 
+}
+
+.dice5:hover g{
+    transform: scale(1.2);
+}
+
+.patterntext {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.cls-1 {
+    fill: #ffe269;
+  }
+  .cls-2 {
+    fill: #fff;
+  }
+  .cls-3 {
+    fill: #fcf0c0;
+  }
+
+.smile-face {
+    max-width: 300px;
+}
+
+@keyframes move {
+    0%{
+    transform: translateX(0);
+    }
+    50%{
+    transform: translateX(10px);
+    }
+    100%{
+    transform: translateX(0px);
+    }
+}
+
+.pupil {
+animation: move 1s infinite;
+}
